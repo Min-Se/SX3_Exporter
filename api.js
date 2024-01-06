@@ -4,7 +4,7 @@ export async function getVideo(id) {
 	let audioDescriptionVideos = [];
 
 	let response = await fetch(
-		`http://dinamics.ccma.cat/pvideo/media.jsp?media=video&version=0s&idint=${id}`
+		`https://dinamics.ccma.cat/pvideo/media.jsp?media=video&version=0s&idint=${id}`
 	);
 	if (!response.ok) {
 		return null;
