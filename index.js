@@ -1,6 +1,6 @@
 //index.js
-console.log("JS loaded")
-import { getVideo } from "api.js";
+console.log("JS loaded");
+import { getVideo } from "./api.js";
 document.getElementById("parse-button").addEventListener("click", parseText);
 document.getElementById("clear-button").addEventListener("click", clearInput);
 
